@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tobi's Abenteuerreisen in Kambodscha</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Externe CSS-Datei -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">Über Tobi</a>
+    <a href="#tours">Abenteuerreisen</a>
+    <a href="#videos">YouTube Videos</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+
+  <!-- Header mit eingebettetem YouTube-Video -->
+  <header id="header">
+    <div class="header-video-container">
+      <iframe id="header-video" 
+              src="https://www.youtube.com/embed/26NKpxWyF1o?autoplay=1&mute=1&loop=1&playlist=26NKpxWyF1o&controls=0&showinfo=0&autohide=1&modestbranding=1&rel=0" 
+              frameborder="0" 
+              allow="autoplay; encrypted-media" 
+              allowfullscreen>
+      </iframe>
+    </div>
+    <div class="header-content">
+      <img src="https://www.atlashxm.com/_assets/_gfx/_country_headers/half/country-header-kh.png" alt="Kambodschanische Flagge" class="flag">
+      <h1>Tobi's Abenteuerreisen in Kambodscha</h1>
+      <p>Erlebe Kambodscha hautnah – Geführte Abenteuerreisen mit Tobi</p>
+      <a href="#tours" class="cta-button">Jetzt Entdecken</a>
+    </div>
+    <!-- Optional: Fallback-Bild für Nicht-JavaScript oder wenn das Video nicht geladen werden kann -->
+    <noscript>
+      <img src="path-to-your-fallback-image.jpg" alt="Hintergrundbild" style="width:100%; height:100%; object-fit: cover;">
+    </noscript>
+  </header>
+
+  <!-- Hauptbereich -->
+  <div class="container">
+
+    <!-- Über Tobi -->
+    <section id="about" class="about">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.pdxD2pNKMNRvvq9JBQqniAHaFj" alt="Bild von Tobi">
+      <div>
+        <h2>Über Tobi</h2>
+        <p>Moin Genoßen der Kambodschanischen Volksfront, Abenteurer und Entdecker! Ich bin Tobi, vor 16 Jahren aus Deutschland nach Kambodscha ausgewandert und freue mich, euch auf authentische und unvergessliche Abenteuerreisen mitzunehmen – nichts für schwache Nerven!</p>
+      </div>
+    </section>
+
+    <!-- Touren -->
+    <section id="tours">
+      <h2 class="section-title">Angebotene Touren</h2>
+      <div class="tours">
+        <div class="tour">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.KhMjW2q1_oLNtj5b-DHQQAHaE9&pid=Api" alt="Reisfelder und Volleyball">
+          <div class="tour-content">
+            <h3>Erkunde die Umgebung & Volleyball</h3>
+            <p>Erkunde Kambodschas Natur und spiele Volleyball mit Einheimischen.</p>
+            <p class="price">Preis: $XX pro Person</p>
+          </div>
+          <a href="#" class="cta-button" onclick="openBookingPopup()">Jetzt Buchen</a>
+        </div>
+        <div class="tour">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.q-cT16V9dA4cag8O0W6i1AHaE8&pid=Api" alt="Lokales Kochen">
+          <div class="tour-content">
+            <h3>Khmer Kochen mit Mali</h3>
+            <p>Lerne traditionelle kambodschanische Gerichte zuzubereiten.</p>
+            <p class="price">Preis: $XX pro Person</p>
+          </div>
+          <a href="#" class="cta-button" onclick="openBookingPopup()">Jetzt Buchen</a>
+        </div>
+        <div class="tour">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.5Vw5SK7HV6GiRRddM938VQHaFj&pid=Api" alt="Bootstour">
+          <div class="tour-content">
+            <h3>Bootstour auf dem Tonle-Sap-See</h3>
+            <p>Genieße eine Bootsfahrt und versuche dein Glück beim Angeln.</p>
+            <p class="price">Preis: $XX pro Person</p>
+          </div>
+          <a href="#" class="cta-button" onclick="openBookingPopup()">Jetzt Buchen</a>
+        </div>
+        <div class="tour">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.pdxD2pNKMNRvvq9JBQqniAHaFj&pid=Api" alt="Schwimmendes Dorf">
+          <div class="tour-content">
+            <h3>Übernachtung im schwimmenden Dorf</h3>
+            <p>Erlebe das Leben in einem schwimmenden Dorf und übernachte in einem rustikalen Haus.</p>
+            <p class="price">Preis: $XXX pro Person</p>
+          </div>
+          <a href="#" class="cta-button" onclick="openBookingPopup()">Jetzt Buchen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- YouTube Videos -->
+    <section id="videos">
+      <h2 class="section-title">YouTube Videos</h2>
+      <div class="videos">
+        <!-- Video 1 -->
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/oDqu1EtOwYc" allowfullscreen></iframe>
+        </div>
+        <!-- Video 2 -->
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/T3jfQhP1gqE" allowfullscreen></iframe>
+        </div>
+        <!-- Video 3 -->
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/LMchbTAtIzg" allowfullscreen></iframe>
+        </div>
+        <!-- Video 4 -->
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/CZPcb7KLlXQ" allowfullscreen></iframe>
+        </div>
+      </div>
+      <p style="text-align: center; margin-top: 20px;">
+        <a href="https://www.youtube.com/@gunteruplegger" target="_blank" class="youtube-button">Mehr Videos auf YouTube</a>
+      </p>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact">
+      <h2 class="section-title">Kontakt</h2>
+      <div class="contact-info">
+        <p>Email: tobi@Beispiel.com</p>
+        <p>Telefon: +855 12 345 678</p>
+        <p>Adresse: Dorfname, Nähe Tonle-Sap-See, Kambodscha</p>
+      </div>
+      <button class="contact-button" onclick="toggleContactForm()">Kontaktformular öffnen</button>
+    </section>
+
+    <!-- Kontaktformular-Popup -->
+    <div id="contactForm" class="contact-form-popup">
+      <div class="form-content">
+        <h3>Kontaktformular</h3>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" rows="5" placeholder="Nachricht" required></textarea>
+          <button type="submit">Absenden</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Buchungs-Popup -->
+    <div id="bookingPopup" class="booking-popup">
+      <div class="form-content">
+        <h3>Buchung abschließen</h3>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="date" name="date" required>
+          <p>Bevorzugte Zahlungsmethode:</p>
+          <div class="payment-options">
+            <label>
+              <input type="radio" name="payment" value="PayPal" required> PayPal
+            </label>
+            <label>
+              <input type="radio" name="payment" value="Bitcoin" required> Bitcoin
+            </label>
+            <label>
+              <input type="radio" name="payment" value="Bar bei Ankunft (USD/Riel)" required> Bar bei Ankunft
+            </label>
+          </div>
+          <button type="submit">Anfrage abschicken</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Tobi's Abenteuerreisen in Kambodscha | <a href="https://www.youtube.com/@gunteruplegger">YouTube Kanal</a></p>
+  </footer>
+
+  <!-- Externes JavaScript -->
+  <script src="scripts.js"></script>
+
+</body>
+</html>
